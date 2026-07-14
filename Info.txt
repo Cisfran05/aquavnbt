@@ -19,14 +19,13 @@ git config http.postBuffer 524288000
 Access Token: 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
 
 
-1. Increase Git buffer size
-Run this once:
-git config http.postBuffer 524288000
-(that’s 500 MB)
-
 git lfs install
 git lfs track "*.psd" "*.zip" "*.jpeg" "*.mp4"
 git add .gitattributes
 git add .
 git commit -m "Track large files with LFS"
 git push -u origin main
+
+clonemy own repo
+https://github.com/new/import
+
